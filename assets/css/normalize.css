@@ -1,0 +1,16 @@
+body {
+  background-color: #FFE5D9;
+
+  -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.container {
+  display: flex;
+  padding: 5.8rem 11.2rem;
+}
+
+.container-container {
+  display: flex;
+  padding: 3.6rem 11.2rem 0 22.4rem;
+}

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/hand-favicon.png" type="image/x-icon">
     <title>Personal Website</title>    
     <!-- Inter Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,39 +18,46 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inika&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/header/header.css">
+    <link rel="stylesheet" href="./assets/css/main/section.css">
+    <link rel="stylesheet" href="./assets/css/main/theme.css">
+    <link rel="stylesheet" href="./assets/css/animations.css">
+    <!-- Javascript -->
+    <script src="./assets/js/script.js" defer></script>
     
 </head>
 <body>
-    <heade>
-        <div>
-            <h1>MATEUS HAFFERMANN FARIAS</h1>
-            <nav>
+    <header>
+        <div class="header container">
+            <h1>Mateus Haffermann Farias</h1>
+            <nav class="header__navigation">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Social Media Links</a></li>
-                    <li><a href="#">Design</a></li>
-                    <li><a href="#">Mail</a></li>
                 </ul>
             </nav>
         </div>
-    </heade>
+    </header>
     
     <main>
-        <section>
-            <div>
+        <section class="section">
+            <div class="section__container container-container">
                 <div>
                     <h2>Mateus H.</h2>
-                    <h3>I am a Front-End Developer, working with JS, HTML, CSS and React</h3>
-                    <ul>
-                        <li id="color-01"></li>
-                        <li id="color-02"></li>
-                        <li id="color-03"></li>
-                        <li id="color-04"></li>
+                    <h3>I am a Front-End Developer,<br>working with JS, HTML, CSS<br>and React.</h3>
+                    <ul id="theme">
+                        <li id="color-01" class="theme"></li>
+                        <li id="color-02" class="theme"></li>
+                        <li id="color-03" class="theme"></li>
+                        <li id="color-04" class="theme"></li>
                     </ul>
-                    <p>A self taught designer, loving<br>the idea of designs</p>
+                    <p>A self taught designer, loving<br>the idea of designs.</p>
                 </div>
-                <img src="./img/main01.svg" alt="" class="main-img">
+                <img src="./img/main01.svg" class="section__img">
             </div>
         </section>
     </main>

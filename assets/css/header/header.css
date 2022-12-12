@@ -1,0 +1,23 @@
+.header, .header__navigation ul {
+  display: flex;
+}
+
+.header {
+  justify-content: space-between;
+}
+
+.header h1 {
+  font-family: 'Inter';
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.header__navigation ul li a{
+  font-family: 'Inter';
+  font-size: 1.4rem;
+  color: #000
+}
+
+.header__navigation ul li{
+  padding: 0 1rem;
+}

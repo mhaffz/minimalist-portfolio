@@ -1,0 +1,38 @@
+.section__container {
+  justify-content: space-between;
+}
+
+.section__container h2 {
+  font-family: 'JetBrains Mono';
+  font-size: 6.4rem;
+  font-weight: 400;
+}
+
+.section__container h3 {
+  font-family: 'Inika';
+  font-size: 3rem;
+  font-weight: 400;
+  margin-top: 2.6rem;
+  margin-bottom: 3.7rem;
+  line-height: 4rem;
+}
+
+.section__container ul {
+  display: flex;
+}
+
+.section__container ul li {
+  margin: 0 4.1rem 5rem 0;
+}
+
+.section__container p {
+  font-family: 'JetBrains Mono';
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 3rem;
+}
+
+.section__container img {
+  height: 40rem;
+  align-self: center;
+}
