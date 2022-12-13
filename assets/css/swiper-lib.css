@@ -3,6 +3,10 @@
   height: 100px;
 }
 
+.swiper-pagination-bullet {
+  background-color: #000;
+}
+
 .swiper .swiper-pagination {
   text-align: start;
 }
