@@ -32,6 +32,14 @@
     <script src="./assets/js/typeIt.js" defer></script>
     <!-- Vannila-Tilt.js -->
     <script src="./assets/js/vanilla-tilt.js" defer></script>
+    <!-- Swiper JS -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/swiper-lib.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./assets/js/swiper-js.js" defer></script>
     
 </head>
 <body>
@@ -60,7 +68,18 @@
                         <li id="color-03" class="theme"></li>
                         <li id="color-04" class="theme"></li>
                     </ul>
-                    <p>A self taught designer, loving<br>the idea of designs.</p>
+                    <div class="swiper">
+                        <span class="swiper-wrapper">
+                            <p class="swiper-slide">A self taught designer, loving<br>the idea of designs.</p>
+                            <span class="swiper-slide swiper__my-resume">
+                                <a href="./assets/Resumo - Mateus Haffermann.pdf" target="_noblank">
+                                    My Resume
+                                    <img src="./img/download-direto.png"></img>
+                                </a>
+                            </span>
+                        </span>
+                        <div class="swiper-pagination"></div>
+                    </div>
                 </div>
                 <img data-tilt src="./img/main01.svg" class="section__img">
             </div>

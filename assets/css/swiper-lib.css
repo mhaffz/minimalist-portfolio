@@ -1,0 +1,8 @@
+.swiper {
+  width: 600px;
+  height: 100px;
+}
+
+.swiper .swiper-pagination {
+  text-align: start;
+}
