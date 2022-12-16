@@ -30,6 +30,7 @@
   font-weight: 400;
   font-size: 2.4rem;
   line-height: 3rem;
+  color: #000;
 }
 
 .section__container img {
@@ -40,9 +41,7 @@
 .swiper__my-resume {
   text-decoration: underline;
 }
-.swiper__my-resume a {
-  color: #000;
-}
+
 .swiper__my-resume img {
   height: 2.7rem;
   position: absolute;
